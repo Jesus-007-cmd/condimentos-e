@@ -1,0 +1,91 @@
+.header-img{
+    width: 100vw;
+    height: 15vh;
+    
+   
+    align-items: end;
+    justify-content: center;
+    background: url('../IMGS/playa.JPG');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 30px;
+    
+}
+.header-orden-text { 
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    
+}
+.header-texto {
+    font-size: 72px;
+    margin-left: 50px;
+    background: linear-gradient(180deg, rgb(108, 0, 0) 20px, rgb(218, 0, 0) 50px, rgb(143, 0, 0) 100px, rgb(180, 79, 79) 200px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+    font-family: 'Raleway', sans-serif;
+    
+  }
+  .header-inicio {
+    margin-left: 10px;
+    text-shadow: 0px 0px 0px #1f0808, 2px 2px 3px rgb(2, 2, 2),2px -2px 3px black, 2px 2px 3px black, -2px 2px 2px black;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .btn_iniciar_sesion{
+    background-image: linear-gradient(to right, #00515f 0%, #56B4D3  51%, #34728f  100%);
+    
+                   /* arriba | derecha | abajo | izquierda */
+    margin-right: 30px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+  }
+
+  .btn_iniciar_sesion:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+
+
+  @media only screen and (max-width:1250px){
+    .header-texto {        font-size: 65px !important;    }
+    .header-inicio{        flex-direction: column;        font-size: 16px !important;        } 
+    .header-img{        height: 14vh;}
+    }
+@media only screen and (max-width:1150px){
+    .header-texto {        font-size: 60px !important;    }
+    .header-inicio{        flex-direction: column;        font-size: 15px !important;        } 
+    .header-img{        height: 13vh;}
+    }
+@media only screen and (max-width:1050px){
+    .header-texto {        font-size: 55px !important;    }
+    .header-inicio{        flex-direction: column;        font-size: 14px !important;        } 
+    .header-img{        height: 12vh;}
+    }
+@media only screen and (max-width:1050px){
+    .header-texto {        font-size: 50px !important;    }
+    .header-inicio{        flex-direction: column;        font-size: 12px !important;        } 
+    .header-img{        height: 11vh;}
+    }
+@media only screen and (max-width:800px){
+    .header-texto {        font-size: 40px !important;    }
+    .header-inicio{        flex-direction: column;        font-size: 10px !important;        } 
+    .header-img{        height: 9vh;}
+    }
+@media only screen and (max-width:700px){
+    .header-texto {        font-size: 35px !important;    }
+    .header-inicio{        flex-direction: column;        font-size: 8px !important;        } 
+    .header-img{        height: 7vh;}
+    }
