@@ -1,9 +1,9 @@
+import { useState } from 'react';
 
 import Carousel from 'react-bootstrap/Carousel';
 
 import Encabezado from './Encabezado';
-import Iniciar from './IniSesModal'
-
+import Regis from './RegSesModal'
 //IMAGENES
 import img1 from '../IMGS/condimentos1.jpg'
 import img2 from '../IMGS/condimentos2.jpg'
@@ -13,7 +13,9 @@ import img5 from '../IMGS/condimentos5.jpg'
 //CSS
 import '../CSS/registroeiniciosesion.css' 
 
-function IniciarSesion() {
+function Registrarse() {
+  const [showModalRegistro, setMostrarModalRegistro] = useState(true);
+  
   return (
     <section>
       <Encabezado/>
@@ -93,7 +95,7 @@ function IniciarSesion() {
       </Carousel.Item>
       </Carousel>
       
-      <Iniciar show={true}   />
+      <Regis show={showModalRegistro}  onHide={() => setMostrarModalRegistro(false)} />
     </section>
   );
 
@@ -102,4 +104,4 @@ function IniciarSesion() {
 
 }
 
-export default IniciarSesion;
+export default Registrarse;

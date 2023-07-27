@@ -16,6 +16,58 @@
   
 }
 
+.modal-css {
+   background-image: linear-gradient(to right, #b35656 0%, #7a2828  51%, #ad6060  100%);
+  
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #090606;
+   border-radius: 10px;
+   /* arriba | derecha | abajo | izquierda */
+padding: 25px 0px 25px 0px;
+   
+   display: flex;
+   justify-content: center;
+
+ }
+ .modal-css:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+.textborderL{
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+              /* arriba | derecha | abajo | izquierda */
+padding: 15px 0px 0px 0px;
+}
+.textborderT{
+    font-size: 25px;
+    text-align: center;
+   
+             
+}
+.btnsModalinicio{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnaceptar{
+    background-color: #8c2f2f !important;
+    color: white !important;
+    border-color: white !important;
+}
+.btnaceptar:hover{
+    background-color: #ec4646 !important;
+    color: white !important;
+    border-color: white !important;
+}
 
 .borderform{
     

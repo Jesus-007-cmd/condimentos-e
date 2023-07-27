@@ -1,24 +1,27 @@
-//REACT BOOTSTRAP
 
 import Encabezado from './Encabezado';
+import NavDats from './NavDats';
 import Carrusel from './Carrusel';
+import Mision from './Mision';
+import Vision from './Vision';
+import Compras from './Compras';
+import Pie from './Pie';
 
-function PaginaIncicio() {
+import '../CSS/paginainicio.css'
+function PaginaInicio() {
   return (
-
-    <section>
-
-
+    <>
       <Encabezado />
-      <div>
-      <Carrusel />
+      <NavDats />
+      <div className='cuerpo'>
+
+        <div><Carrusel /></div>
+        <div><Mision /></div>
+        <div><Vision /></div>
+        <div><Compras /></div>
       </div>
-    </section>
-
-
-
+      <Pie />
+    </>
   );
-
-
 }
-export default PaginaIncicio;
+export default PaginaInicio;

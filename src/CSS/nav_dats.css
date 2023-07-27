@@ -1,0 +1,113 @@
+
+  .nav-dats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:   linear-gradient(to right, #00455a , #44a4cd);
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
+  
+  .user-info, .carrito-info {
+    width: 100%;
+  }
+  /* BOTON DE ADMIN E IMAGEN DE ADMIN ******** BOTON DE ADMIN E IMAGEN DE ADMIN */
+  .btn-admin{
+    border-radius: 5px;
+    background-color: #00455a;
+    border-width: 3px;
+    height: 60px;
+    width: 80px;
+    border-color: #44a4cd ;
+  }
+  .btn-admin:hover{
+    scale: 1.1;
+    background-color: #00455a;
+    border-color: #44a4cd ;
+  }
+  .img-admin{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+  }
+  /* BOTON DE ADMIN E IMAGEN DE ADMIN ******** BOTON DE ADMIN E IMAGEN DE ADMIN */
+  /* BOTON DE CARRITO E IMAGEN DE CARRITO ******** BOTON DE CARRITO E IMAGEN DE CARRITO */
+  .btn-carrito{
+    height: 60px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: #00455a;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-color: #44a4cd ;
+}
+.btn-carrito:hover{
+  scale: 1.1;
+  border-color: #44a4cd ;
+}
+.img-carrito{
+  width: 100%;
+  height: 100%;
+}
+
+  /* BOTON DE CARRITO ******** BOTON DE CARRITO ********BOTON DE CARRITO ******** */
+
+  .carrito-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .carrito-info p {
+    margin: 0;
+    margin-right: 10px;
+  }
+  
+  .carrito-info button {
+    margin-right: 10px;
+  }
+  
+  /* ModalProductos.js */
+  .list-group {
+    margin-top: 20px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  /* Carrito.js */
+  .item-carrito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  /* Media Queries para responsive */
+  @media (min-width: 576px) {
+    /* Tamaño de pantalla: 576px en adelante (smartphones en posición horizontal) */
+    .nav-dats {
+      flex-direction: row;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* Tamaño de pantalla: 768px en adelante (tabletas) */
+    .nav-dats {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .user-info, .carrito-info {
+      font-size: 20px;
+      flex: 1;
+    }
+  }

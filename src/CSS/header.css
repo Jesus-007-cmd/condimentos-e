@@ -28,6 +28,11 @@
     font-family: 'Raleway', sans-serif;
     
   }
+  .group_btns{
+    display: flex;
+    justify-content: center;
+    
+  }
   .header-inicio {
     margin-left: 10px;
     text-shadow: 0px 0px 0px #1f0808, 2px 2px 3px rgb(2, 2, 2),2px -2px 3px black, 2px 2px 3px black, -2px 2px 2px black;

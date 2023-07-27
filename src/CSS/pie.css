@@ -1,0 +1,129 @@
+.final{
+    /*width: 1024px;*/
+     background-color: black;
+      color:white;
+      padding: 40px 0px;
+      font-size: 15px;
+ }
+ .contenedorFinal{
+     
+     display: grid;
+     grid-template-columns: 2fr repeat(3,1fr) ;
+     padding: 40px; 
+     align-items: top; 
+    
+ }
+ .contenedorFinal a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.contenedorFinal a:hover{
+    text-decoration:underline;
+    color:skyblue;
+}
+ .condientos-img{
+    width: 500px;
+    height: 400px;
+}
+
+.redess{
+    padding-top: 30px;
+    padding-left: 51px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    
+}
+.espacio{
+    width: 60px;
+    height: 60px;
+}
+.bi-instagram{
+    
+    width: 40px;
+    height: 40px;
+    padding:  6px;
+    font-size: 28px;
+   
+    border-radius: 50%;
+   background-color:#222326;  
+   color: white;
+}
+.bi-instagram:hover{
+    color: rgb(128, 0, 79);
+    scale: 1.1;
+    cursor: pointer;
+
+}
+
+.bi-twitter{
+    padding-top: 20px;
+    width: 40px;
+    height: 40px;
+    padding:  6px;
+    font-size: 28px;
+   
+    border-radius: 50%;
+   background-color:#222326;  
+   color: white;
+}
+.bi-twitter:hover{
+    color: #1D9BF0;
+    scale: 1.1;
+    cursor: pointer;
+
+}
+.bi-facebook{
+    width: 40px;
+    height: 40px;
+    padding:  6px;
+    font-size: 28px;
+   
+    border-radius: 50%;
+   background-color:#222326;  
+   color: white;
+
+}
+.bi-facebook:hover{
+    color: rgb(2, 0, 128);
+}
+@media screen and (max-width: 1026px) {
+    .productos{
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+    
+    .condientos-img{
+        width: 250px;
+        height: 170px;
+    }
+    .contenedorFinal{
+        grid-template-columns: 2fr fr;
+    }
+    .section1 img{
+
+        height: 150px;
+          width: 200px;
+          border: 1px solid WHITE;}
+   
+}
+@media screen and (max-width: 700px) {
+    .productos{
+        grid-template-columns: 1fr;
+        
+    }
+   
+    .condientos-img{
+        width: 150px;
+        height: 100px;
+    }
+    .contenedorFinal{
+        grid-template-columns: 1fr;
+    }
+ 
+    .section1 img{
+
+   height: 100px;
+     width: 150px;
+     border: 1px solid WHITE;}
+}
