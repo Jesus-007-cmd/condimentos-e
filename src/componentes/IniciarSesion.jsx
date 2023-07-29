@@ -2,6 +2,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 
 import Encabezado from './Encabezado';
+import Pie from './Pie';
 import Iniciar from './IniSesModal'
 
 //IMAGENES
@@ -92,7 +93,8 @@ function IniciarSesion() {
         <Carousel.Caption>       </Carousel.Caption>
       </Carousel.Item>
       </Carousel>
-      
+      <Pie/>
+
       <Iniciar show={true}   />
     </section>
   );

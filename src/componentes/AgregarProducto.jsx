@@ -13,7 +13,6 @@ const AgregarProducto = () => {
   const nombreRef = useRef(null);
   const costoRef = useRef(null);
   const precioRef = useRef(null);
-  const gananciaRef = useRef(null);
   const gramosRef = useRef(null);
 
   useEffect(() => {
@@ -43,7 +42,6 @@ const AgregarProducto = () => {
         nombre: editedFields.nombre !== undefined ? editedFields.nombre : productToUpdate.nombre,
         costo: editedFields.costo !== undefined ? parseInt(editedFields.costo) : productToUpdate.costo,
         precioalpublico: editedFields.precioalpublico !== undefined ? parseInt(editedFields.precioalpublico) : productToUpdate.precioalpublico,
-        ganancia: editedFields.ganancia !== undefined ? parseInt(editedFields.ganancia) : productToUpdate.ganancia,
         gramos: editedFields.gramos !== undefined ? parseInt(editedFields.gramos) : productToUpdate.gramos,
       };
 
@@ -74,7 +72,6 @@ const AgregarProducto = () => {
         nombre: nombreRef.current.value,
         costo: parseInt(costoRef.current.value),
         precioalpublico: parseInt(precioRef.current.value),
-        ganancia: parseInt(gananciaRef.current.value),
         gramos: parseInt(gramosRef.current.value),
       };
 
@@ -84,7 +81,6 @@ const AgregarProducto = () => {
       nombreRef.current.value = '';
       costoRef.current.value = '';
       precioRef.current.value = '';
-      gananciaRef.current.value = '';
       gramosRef.current.value = '';
       setShowAddForm(false);
     } catch (error) {
@@ -113,7 +109,6 @@ const AgregarProducto = () => {
             <th>Nombre</th>
             <th>Costo</th>
             <th>Precio al Público</th>
-            <th>Ganancia</th>
             <th>Gramos</th>
             <th>Acciones</th>
           </tr>
@@ -125,7 +120,6 @@ const AgregarProducto = () => {
                 <td>{product.nombre}</td>
                 <td>{product.costo}</td>
                 <td>{product.precioalpublico}</td>
-                <td>{product.ganancia}</td>
                 <td>{product.gramos}</td>
                 <td>
                   {editingProduct === product._id ? (
@@ -179,15 +173,7 @@ const AgregarProducto = () => {
                         onChange={(e) => setEditedFields({ ...editedFields, precioalpublico: parseInt(e.target.value) })}
                       />
                     </div>
-                    <div className="form-group">
-                      <label htmlFor="ganancia">Ganancia:</label>
-                      <input
-                        type="number"
-                        className="form-control"
-                        value={editedFields.ganancia !== undefined ? editedFields.ganancia : product.ganancia}
-                        onChange={(e) => setEditedFields({ ...editedFields, ganancia: parseInt(e.target.value) })}
-                      />
-                    </div>
+                    
                     <div className="form-group">
                       <label htmlFor="gramos">Gramos:</label>
                       <input
@@ -212,9 +198,6 @@ const AgregarProducto = () => {
               </td>
               <td>
                 <input type="number" className="form-control" ref={precioRef} />
-              </td>
-              <td>
-                <input type="number" className="form-control" ref={gananciaRef} />
               </td>
               <td>
                 <input type="number" className="form-control" ref={gramosRef} />

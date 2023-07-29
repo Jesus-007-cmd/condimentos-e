@@ -1,8 +1,8 @@
 .mision {
     background-image: radial-gradient(white, rgb(255, 244, 245));
-    width: 80%;
+    width: 100%;
     border-radius: 1%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 20px auto;
     padding: 20px;
     background: #ffffff;
     border: 3px solid black;
@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
   }
   
@@ -27,9 +27,8 @@
   }
   
   .mision .img_mision {
-    width: 100%;
-    height: auto;
-    max-height: 200px; /* Ajustar la altura máxima según tu preferencia */
+    max-width: 100%;
+    max-height: 300px; /* Ajusta la altura máxima según tus preferencias */
     border: 2px solid gray;
   }
   
@@ -42,20 +41,18 @@
   }
   
   .mision .tit-mision {
-    font-size: 44px;
+    font-size: 24px;
     margin-top: 20px;
     font-family: 'Dancing Script', cursive;
-    font-weight: bold;
   }
-  @media screen and (max-width: 900px) {
-    .mision .contenido {
-      flex-direction: column; /* Cambiamos la dirección del flexbox a column */
-    }
+  .centrar-elementos-carrito{
+    align-items: center;
+    text-align: center;
+  }
   
-    .mision .img-container,
-    .mision .texto {
-      width: 100%; /* El ancho será del 100% para ocupar toda la pantalla en disposición vertical */
-      max-width: 100%;
-      padding: 10px; /* Ajusta el espacio entre imagen y texto según tus preferencias */
+  @media screen and (max-width: 768px) {
+    .mision {
+      font-size: 16px;
     }
   }
+  

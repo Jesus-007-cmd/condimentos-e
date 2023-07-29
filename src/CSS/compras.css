@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cuerpo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    overflow-x: auto; /* Agregamos overflow-x: auto para permitir el desplazamiento horizontal */
+  }
+  
+  /* Estilos para cada uno de los componentes del cuerpo */
+  .cuerpo > div {
+    margin: 10px;
+    flex-basis: 400px; /* Ajusta el ancho de cada componente según tus preferencias */
+  }
+.compras {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .compras h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .compras p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .compras button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #44a4cd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .compras {
+      font-size: 16px;
+    }
+  }
+  

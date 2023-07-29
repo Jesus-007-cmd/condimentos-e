@@ -1,0 +1,59 @@
+.order-ctrls-btns{
+    display: flex;
+    flex-direction: column;
+}
+.order-ctrls-btns1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.tabla_orden{
+    font-size: 20px !important;
+    width: 100% !important;
+    margin-left:auto;margin-right:auto;
+    align-items: center;
+    
+    }
+
+
+    @media only screen and (max-width: 1500px) {
+        /* Tamaño de pantalla: 768px en adelante (tabletas) */
+        .tabla_orden{
+            font-size: 18px !important;
+            
+            }
+        
+      }
+    @media only screen and (max-width: 880px) {
+        /* Tamaño de pantalla: 768px en adelante (tabletas) */
+        .tabla_orden{
+            font-size: 16px;
+            
+
+            }
+            .order-ctrls-btns1 {
+                display: grid;
+                grid-template-columns: repeat(2 , 1fr);
+                align-items: center;
+            }
+            .btn-agregar-carrito{
+                font-size: 14px;
+            }
+      }
+      @media only screen and  (max-width: 700px) {
+        .tabla_orden{
+            font-size: 10px !important;
+            }
+            .order-ctrls-btns1 {
+                font-size: 10px;
+                display: grid;
+                grid-template-columns:  1fr;
+                align-items: center;
+            }
+        
+      }
+      
+   

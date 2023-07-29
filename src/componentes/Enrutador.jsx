@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import PaginaInicio from './PaginaInicio';
 import Iniciarsesion from './IniciarSesion';
 import Registrarse from './Registrarse';
-import PaginaProductos from './PaginaProductos';
+import PaginaOrdenProductos from './PaginaOrdenProductos';
 import PaginaAgregarProductos from './PaginaAgregarProductos';
 //import PaginaP from './Header';
 //import RegistroOiniciarSesion from './RegistroOiniciarSesion';
@@ -14,7 +14,7 @@ function Enrutador() {
             <Route path='/' element={<PaginaInicio/>}/>
             <Route path='/Iniciar_Sesion' element={<Iniciarsesion/>}/>
             <Route path='/Registrarse' element={<Registrarse/>}/>
-            <Route path="/Productos" element={<PaginaProductos />} /> 
+            <Route path="/OrdenesProductos" element={<PaginaOrdenProductos />} /> 
             <Route path="/AgregarProductos" element={<PaginaAgregarProductos />} /> 
         </Routes>
          

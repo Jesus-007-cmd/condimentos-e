@@ -1,18 +1,18 @@
 
   .nav-dats {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
+    
     align-items: center;
     background-image:   linear-gradient(to right, #00455a , #44a4cd);
-    text-align: center;
+    text-align:center;
     color: white;
-    padding: 10px;
+    justify-content:space-between !important;
+    /*top  right bottom left */ 
+   padding: 10px 20px 10px 20px ;
   }
   
-  .user-info, .carrito-info {
-    width: 100%;
-  }
+  
   /* BOTON DE ADMIN E IMAGEN DE ADMIN ******** BOTON DE ADMIN E IMAGEN DE ADMIN */
   .btn-admin{
     border-radius: 5px;
@@ -36,9 +36,10 @@
   /* BOTON DE CARRITO E IMAGEN DE CARRITO ******** BOTON DE CARRITO E IMAGEN DE CARRITO */
   .btn-carrito{
     height: 60px;
-    width: 100px;
+    width: 110px;
     border-radius: 5px;
-    border-color: #00455a;
+    background-color: #00455a;
+    border-width: 3px;
     display: flex;
     align-items: center;
     background-color: white;
@@ -55,33 +56,14 @@
 
   /* BOTON DE CARRITO ******** BOTON DE CARRITO ********BOTON DE CARRITO ******** */
 
-  .carrito-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-  }
   
-  .carrito-info p {
-    margin: 0;
-    margin-right: 10px;
-  }
-  
-  .carrito-info button {
-    margin-right: 10px;
-  }
   
   /* ModalProductos.js */
   .list-group {
     margin-top: 20px;
   }
   
-  .list-group-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5px 0;
-  }
+  
   
   /* Carrito.js */
   .item-carrito {

@@ -16,9 +16,10 @@ function PaginaInicio() {
       <div className='cuerpo'>
 
         <div><Carrusel /></div>
+        <div><Compras /></div>
         <div><Mision /></div>
         <div><Vision /></div>
-        <div><Compras /></div>
+      
       </div>
       <Pie />
     </>

@@ -1,129 +1,150 @@
-.final{
+.final {
     /*width: 1024px;*/
-     background-color: black;
-      color:white;
-      padding: 40px 0px;
-      font-size: 15px;
- }
- .contenedorFinal{
-     
-     display: grid;
-     grid-template-columns: 2fr repeat(3,1fr) ;
-     padding: 40px; 
-     align-items: top; 
+    background: linear-gradient(to right, #00455a, #177c9d);
+    color: white;
     
- }
- .contenedorFinal a{
+    font-size: 15px;
+  }
+  
+  .contenedorFinal {
+    display: flex;
+    flex-direction: row;
+    font-display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+     /*top  right bottom left */ 
+   padding: 10px 20px 10px 20px ;
+    align-items: center;
+  }
+  
+  .contenedorFinal a {
     text-decoration: none;
     color: whitesmoke;
-}
-.contenedorFinal a:hover{
-    text-decoration:underline;
-    color:skyblue;
-}
- .condientos-img{
-    width: 500px;
-    height: 400px;
-}
-
-.redess{
+  }
+  
+  .contenedorFinal a:hover {
+    text-decoration: underline;
+    color: skyblue;
+  }
+  
+  .condimentos-img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .redess {
     padding-top: 30px;
     padding-left: 51px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     align-content: space-between;
-    
-}
-.espacio{
+  }
+  
+  .espacio {
     width: 60px;
     height: 60px;
-}
-.bi-instagram{
-    
+  }
+  
+  .bi-instagram {
     width: 40px;
     height: 40px;
-    padding:  6px;
+    padding: 6px;
     font-size: 28px;
-   
     border-radius: 50%;
-   background-color:#222326;  
-   color: white;
-}
-.bi-instagram:hover{
+    background-color: #222326;
+    color: white;
+  }
+  nav ul {
+    list-style: none;
+  }
+  .group-elments{
+ /*top  right bottom left */ 
+ padding: 0px 10px 0px 10px !important ;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+  }
+
+  .bi-instagram:hover {
     color: rgb(128, 0, 79);
-    scale: 1.1;
+    transform: scale(1.1);
     cursor: pointer;
-
-}
-
-.bi-twitter{
+  }
+  
+  .bi-twitter {
     padding-top: 20px;
     width: 40px;
     height: 40px;
-    padding:  6px;
+    padding: 6px;
     font-size: 28px;
-   
     border-radius: 50%;
-   background-color:#222326;  
-   color: white;
-}
-.bi-twitter:hover{
-    color: #1D9BF0;
-    scale: 1.1;
+    background-color: #222326;
+    color: white;
+  }
+  
+  .bi-twitter:hover {
+    color: #1d9bf0;
+    transform: scale(1.1);
     cursor: pointer;
-
-}
-.bi-facebook{
+  }
+  
+  .bi-facebook {
     width: 40px;
     height: 40px;
-    padding:  6px;
+    padding: 6px;
     font-size: 28px;
-   
     border-radius: 50%;
-   background-color:#222326;  
-   color: white;
-
-}
-.bi-facebook:hover{
+    background-color: #222326;
+    color: white;
+  }
+  
+  .bi-facebook:hover {
     color: rgb(2, 0, 128);
-}
-@media screen and (max-width: 1026px) {
-    .productos{
-        grid-template-columns: repeat(3,1fr);
-        
+  }
+  
+  @media screen and (max-width: 1026px) {
+    .contenedorFinal {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
     }
-    
-    .condientos-img{
-        width: 250px;
-        height: 170px;
+  
+    .condimentos-img {
+      width: 250px;
+      height: 170px;
     }
-    .contenedorFinal{
-        grid-template-columns: 2fr fr;
+  
+    .section1 img {
+      height: 150px;
+      width: 200px;
+      border: 1px solid WHITE;
     }
-    .section1 img{
-
-        height: 150px;
-          width: 200px;
-          border: 1px solid WHITE;}
-   
-}
-@media screen and (max-width: 700px) {
-    .productos{
-        grid-template-columns: 1fr;
-        
+  }
+  
+  @media screen and (max-width: 800px) {
+    .redess {
+      
+      justify-content: center;
     }
-   
-    .condientos-img{
-        width: 150px;
-        height: 100px;
+    .condimentos-img{
+      justify-content: center;
+      padding: 0%;
     }
-    .contenedorFinal{
-        grid-template-columns: 1fr;
+    .contenedorFinal {
+      display: grid;
+      grid-template-columns: 1fr;
     }
- 
-    .section1 img{
-
-   height: 100px;
-     width: 150px;
-     border: 1px solid WHITE;}
-}
+  
+    .condimentos-img {
+      width: 150px;
+      height: 100px;
+    }
+  
+    .section1 img {
+      height: 100px;
+      width: 150px;
+      border: 1px solid WHITE;
+    }
+  }
+  

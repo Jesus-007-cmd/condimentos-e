@@ -33,7 +33,7 @@ function IniSesModal(props) {
       console.log(data.user)
       setUsuario(num_telefo.current.value);
       setAdmin(false)
-      navigate('../Productos')
+      navigate('../OrdenesProductos')
       
     }
   }
