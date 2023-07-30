@@ -47,10 +47,10 @@ function IniSesModal(props) {
       <Modal.Body className="modal-css" >
         <Form >
           <Form.Group className='tems_config' >
-            <Form.Label className='textborderL'>Número Celular o correo Electronico:</Form.Label>
-            <Form.Control type="text" className='textborderT' ref={num_telefo} />
+            <Form.Label className='textborder'>Número Celular o correo Electronico:</Form.Label>
+            <Form.Control type="text" className='textborder' ref={num_telefo} />
             <Form.Label className='textborderL'>Introducir Contraseña:</Form.Label>
-            <Form.Control type="password" className='textborderT' ref={refpassw} />
+            <Form.Control type="password" className='textborder' ref={refpassw} />
           </Form.Group>
           <div className='btnsModalinicio' >
             <ButtonReactBS className='btnaceptar' variant="danger" onClick={() => {

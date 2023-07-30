@@ -1,10 +1,10 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { CarritoContext, UserContext, AuthContext } from '../App';
-import { Modal, Button } from 'react-bootstrap';
+
 import { useNavigate } from 'react-router-dom';
 import '../CSS/nav_dats.css';
 import IniciarAdmin from './IniSesAdminModal';
-import OrdenProductos from './OrdenProductos';
+
 import Carrito from './Carrito';
 
 import imgadmin from '../IMGS/admin.jpg';
