@@ -47,7 +47,7 @@
 
 **Jesús Antonio Gutiérrez Aguilar**
 # <a name="_toc141660767"></a>**RUTAS**
-<div style="text-align: right">
+<div style="text-align: left">
 
 [Ir al Inicio](#_toc141660111)
 
