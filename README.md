@@ -97,7 +97,8 @@ Para probarlo solo se requiere la dirección del backend seguido del primer elem
 
 Prueba con thunderclient para crear admin:
 
-![](Aspose.Words.cafac97e-fe7c-4674-9387-0c52448ad8a7.001.png)
+![image](https://github.com/Jesus-007-cmd/condimentos-e/assets/118942603/7b8d0847-05d1-4bf3-97c2-48941ed46591)
+
 
 La imagen del sitio:
 
