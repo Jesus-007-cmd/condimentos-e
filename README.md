@@ -47,7 +47,8 @@
 
 **Jesús Antonio Gutiérrez Aguilar**
 # <a name="_toc141660767"></a>**RUTAS**
-[Volver a contenido](#_toc141660111)
+<div style="text-align: right">[Volver a contenido](#_toc141660111)</div>
+
 ## <a name="_toc141660768"></a>**BACKEND:**
 - WEB: https://ecomerce-v3kv.onrender.com
 - GITHUB: https://github.com/Jesus-007-cmd/backend-ecomerce
