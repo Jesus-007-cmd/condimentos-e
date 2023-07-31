@@ -47,14 +47,7 @@
 
 **Jesús Antonio Gutiérrez Aguilar**
 # <a name="_toc141660767"></a>**RUTAS**
-<div style="text-align: left">
-
 [Ir al Inicio](#_toc141660111)
-
-</div>
-
-
-
 ## <a name="_toc141660768"></a>**BACKEND:**
 - WEB: https://ecomerce-v3kv.onrender.com
 - GITHUB: https://github.com/Jesus-007-cmd/backend-ecomerce
@@ -63,44 +56,28 @@
 - GITHUB:
 
 Para pruebas se muestran las rutas:
-
+### // Usuarios Administradores
 app.post('/loginAdmin', loginAdmin);
-
 app.post('/CrearAdmin', createAdmin); 
-
-// Usuarios 
-
+### // Usuarios 
 app.get('/user', getUsers);
-
 app.post('/user/login', login);
-
 app.post('/user', createUser);
-
 app.put('/user/:id', userUpdate);
-
 app.delete('/user/:id', userDelete);
-
-// Productos
-
+### // Productos
 app.get('/product', getProducts);
-
 app.post('/product', createProduct);
-
 app.put('/product/:id', productUpdate);
-
 app.delete('/product/:id', productDelete);
-
-//Ordenes
-
+### //Ordenes
 app.get('/order', getOrders);
-
 app.post('/order', createOrder);
-
 app.put('/order/:id', orderUpdate);
-
 app.delete('/order/:id', orderDelete);
 
 Para probarlo solo se requiere la dirección del backend seguido del primer elemento del post.
+[Ir al Inicio](#_toc141660111)
 ### <a name="_toc141660770"></a>**Ejemplo:**
 **Nombre del backend en render**: ecomerce
 
