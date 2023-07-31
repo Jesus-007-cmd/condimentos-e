@@ -290,19 +290,19 @@ Una vez llenos los datos se presiona el botón aceptar y nos mostrara lo siguien
 Este sistema permitió obtener un amplio conocimiento como para poder empezar a emprender o desarrollar una empresa, desafortunadamente no se cumplio con la entrega en tiempo por lo que se realizo lo mejor posible para ser del agrado de los maestros y cordinadores, espero me den la oportunidad de aceptarlo y obtener una buena calificación.
 
 ## Como mejoras al sistema se puede implementar:
--> Nueva aplicación React para administrar la base de datos eliminado el login de admin en la aplicación actual.
--> Agregar el modulo de ver ordenes para que el Vendedor vea las ordenes realizadas durante el día.
--> Agregarle imagenes de los productos
--> Agregar la funcionalidad de ubicación para tener un registro de todas las ubicaciones de los clientes 
--> En la opción de clientes en el carrito que puedan eliminar o quitar cantidad de productos direcamente desde el carrito.
--> Mejorar lo responsivo para que este mas centrado dentro de celulares y corregir las tablas para presentar los botones de bajo de cada registro ahorrando espacio en pantalla.
--> Que el cliente también pueda ver sus ordenes realizadas.
--> Agregar la funcionalidad del backend editando algunos campos para ver estatus de ordenes cerradas y abiertas e incluso de poder cambiar estatus de orden a cerrada cuando ya se entregan los productos al cliente.
--> Agregar una funcionalidad de gráficos para analizar tendencia de ventas de productos.
--> Agregar una funcionalidad que permita manejar inventario del vendedor en materia prima y comparlo con inventario de productos y realice estimaciones para comprar materia prima antes y no incumplir en la creación de los productos.
--> Agregar la funcionalidad de inventario de los clientes para realizar estimaciones de los productos que se estan agotando y determinar desde antes o generar estadisticas de lo que debe comprar para que el cliente nunca deje de ganar.
--> Agregar la funcionalidad en los clientes de recibir ordenes y con codigo de barras empezar a recibir los productos del vendedor para satisfacer la orden.
--> Mejorar el inicio de la página agregando más información de la empresa como telefono, correo electronico.
--> Eliminar la funcionalidad de registro de los clientes en automatico, que sea via correo electronico y una llamada telefonica para evitar hackeos por creación de cuentas de clientes ilimitadas.
--> Agregar una funcionalidad de presentación de productos donde se vean los paquetes y los exibidores en diferentes negocios. Así como la ubicación de las tiendas donde se pueden adquirir los productos.
+#### -> Nueva aplicación React para administrar la base de datos eliminado el login de admin en la aplicación actual.
+#### -> Agregar el modulo de ver ordenes para que el Vendedor vea las ordenes realizadas durante el día.
+#### -> Agregarle imagenes de los productos
+#### -> Agregar la funcionalidad de ubicación para tener un registro de todas las ubicaciones de los clientes 
+#### -> En la opción de clientes en el carrito que puedan eliminar o quitar cantidad de productos direcamente desde el carrito.
+#### -> Mejorar lo responsivo para que este mas centrado dentro de celulares y corregir las tablas para presentar los botones de bajo de cada registro ahorrando espacio en pantalla.
+#### -> Que el cliente también pueda ver sus ordenes realizadas.
+#### -> Agregar la funcionalidad del backend editando algunos campos para ver estatus de ordenes cerradas y abiertas e incluso de poder cambiar estatus de orden a cerrada cuando ya se entregan los productos al cliente.
+#### -> Agregar una funcionalidad de gráficos para analizar tendencia de ventas de productos.
+#### -> Agregar una funcionalidad que permita manejar inventario del vendedor en materia prima y comparlo con inventario de productos y realice estimaciones para comprar materia prima antes y no incumplir en la creación de los productos.
+#### -> Agregar la funcionalidad de inventario de los clientes para realizar estimaciones de los productos que se estan agotando y determinar desde antes o generar estadisticas de lo que debe comprar para que el cliente nunca deje de ganar.
+#### -> Agregar la funcionalidad en los clientes de recibir ordenes y con codigo de barras empezar a recibir los productos del vendedor para satisfacer la orden.
+#### -> Mejorar el inicio de la página agregando más información de la empresa como telefono, correo electronico.
+#### -> Eliminar la funcionalidad de registro de los clientes en automatico, que sea via correo electronico y una llamada telefonica para evitar hackeos por creación de cuentas de clientes ilimitadas.
+#### -> Agregar una funcionalidad de presentación de productos donde se vean los paquetes y los exibidores en diferentes negocios. Así como la ubicación de las tiendas donde se pueden adquirir los productos.
 
