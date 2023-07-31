@@ -84,7 +84,7 @@ Para probarlo solo se requiere la dirección del backend seguido del primer elem
 Prueba con thunderclient para crear admin:
 
 ![image](https://github.com/Jesus-007-cmd/condimentos-e/assets/118942603/7b8d0847-05d1-4bf3-97c2-48941ed46591)
-
+[Ir al Inicio](#_toc141660111)
 
 La imagen del sitio:
 
@@ -101,7 +101,7 @@ Contraseña: asdf
 Para acceder es necesario presionar el botón izquierdo de la pantalla:
 
 ![image](https://github.com/Jesus-007-cmd/condimentos-e/assets/118942603/2848a6ca-faa3-4993-80af-14cbbe186973)
-
+[Ir al Inicio](#_toc141660111)
 
 Una vez dentro se muestra nuestro login para administrador:
 
@@ -118,7 +118,7 @@ Para agregar productos es necesario entrar como administrador, una vez dentro si
 Para agregar un producto solo es presionando el botón azul llamado Agregar Producto, el cual se muestra en la sección anterior, después de eso nos mostrará lo siguiente:
 
 ![image](https://github.com/Jesus-007-cmd/condimentos-e/assets/118942603/7a4f74f9-66fa-457a-9c0d-a37e29b56465)
-
+[Ir al Inicio](#_toc141660111)
 
 En esta opción se escribe el nombre del producto, el costo al cliente y el precio al público, así como los gramos, de esta manera se puede saber la ganancia de nuestros clientes con la diferencia del precio al publico y el costo. Una vez lleno todos los campos solo hay que presionar el botón verde Guardar Producto o bien si no se desea guardar solo cancelar, a continuación se muestra el resultado de agregar un producto:
 
@@ -129,12 +129,12 @@ En esta opción se escribe el nombre del producto, el costo al cliente y el prec
 Para eliminar un producto es muy sencillo solo es presionando el botón eliminar del producto que se desee eliminar. Suponiendo que se capturo por error el siguiente campo:
 
 ![image](https://github.com/Jesus-007-cmd/condimentos-e/assets/118942603/7a79778b-1b33-4a1b-ad74-b9e462afae1b)
-
+[Ir al Inicio](#_toc141660111)
 
 El cual es asdfasf, para eliminarlo simplemente se presiona el botón eliminar dándonos el siguiente resultado:
 
 ![image](https://github.com/Jesus-007-cmd/condimentos-e/assets/118942603/6489c7dd-e99c-40fe-9350-d30338495ccd)
-
+[Ir al Inicio](#_toc141660111)
 
 Ahora para editar un producto tenemos el producto adggh y solo presionamos el botón editar:
 
@@ -144,12 +144,13 @@ Ahora para editar un producto tenemos el producto adggh y solo presionamos el bo
 Como se puede observar en la parte inferior aparecen los campos a editar, se modifican y mucho ojo ahí se presiona el botón guardar, no el botón agregar producto, dándonos el siguiente resultado:
 
 ![image](https://github.com/Jesus-007-cmd/condimentos-e/assets/118942603/2b38de9c-3fd7-4579-965f-535e30eb30fd)
+[Ir al Inicio](#_toc141660111)
 
 ## <a name="_toc141660775"></a>**Salir de Admin**
 Para salirse de la opción de administrador es necesario presionar el botón que se encuentra en la parte superior izquierda:
 
 ![image](https://github.com/Jesus-007-cmd/condimentos-e/assets/118942603/ba48b793-64cc-48ac-8763-979b9880468a)
-
+[Ir al Inicio](#_toc141660111)
 
 Una vez fuera nos manda a la página principal:
 
