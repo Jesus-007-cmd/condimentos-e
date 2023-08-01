@@ -298,3 +298,9 @@ Este sistema permitió obtener un amplio conocimiento como para poder empezar a 
 #### -> Eliminar la funcionalidad de registro de los clientes en automatico, que sea via correo electronico y una llamada telefonica para evitar hackeos por creación de cuentas de clientes ilimitadas.
 #### -> Agregar una funcionalidad de presentación de productos donde se vean los paquetes y los exibidores en diferentes negocios. Así como la ubicación de las tiendas donde se pueden adquirir los productos.
 [Ir al Inicio](#_toc141660111)
+
+
+## REFERENCIAS
+
+#### ->DESPLIEGUE NETLIFY
+  https://dev.to/duxtech/desplegar-app-de-react-js-en-netlify-en-menos-de-5-min-3li9#:~:text=Desplegar%20app%20de%20React.js%20en%20Netlify%20%28en%20menos,Create%20%26%20configure%20a%20new%20site%20M%C3%A1s%20elementos
